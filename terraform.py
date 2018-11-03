@@ -1,6 +1,10 @@
 from string import Template
 
 
+def foo():
+    print("terraform.foo")
+
+
 def render_remote_state(filename='remote_state.tf',
                         bucket_name='abc',
                         project_name='123',
