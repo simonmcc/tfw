@@ -38,7 +38,13 @@ Feature Roadmap
 * Generate YAML/JSON inventory of EC2, RDS, LBs etc (for consumption by hiera, ansible etc)
 * Git Branch/Terraform .tfvars mapping (master -> master.tfvars,  $branch -> $branch.tfvars with non-master-defaults.tfvars fall through)
 * Git Branch/Terraform Workspace mapping (create/delete workspaces for CI builds)
+* Use Azure MSI to get SPI Auth tokens for Terraform (https://azure.microsoft.com/en-gb/resources/samples/resource-manager-python-manage-resources-with-msi/)
 
+
+Reading
+-------
+
+* https://magentys.io/using-azure-key-vault/
 
 Credits
 -------
